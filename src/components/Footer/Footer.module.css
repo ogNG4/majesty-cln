@@ -1,0 +1,101 @@
+.footer {
+  height: 110vh;
+  max-height: 120vh;
+  display: flex;
+  flex-direction: column;
+  color: gray;
+  background: #222222;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+.info {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.info-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.header {
+  color: white;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.adres {
+  margin-bottom: 3rem;
+}
+
+.company-name {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.adres-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.email {
+  color: rgb(219, 64, 64);
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.buttons button {
+  width: 2.8rem;
+  height: 2.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: transparent;
+  border: 1px solid gray;
+  color: gray;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.sticker {
+  margin-top: 4rem;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1075px) {
+  .footer {
+    height: 40vh;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .info,
+  .adres,
+  .sticker,
+  .media {
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .footer {
+    height: 30vh;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .info,
+  .adres,
+  .sticker,
+  .media {
+    margin-top: 1rem;
+  }
+}

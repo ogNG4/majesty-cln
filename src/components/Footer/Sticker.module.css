@@ -1,0 +1,9 @@
+.over{
+    height: 50vh;
+   
+    color: white;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

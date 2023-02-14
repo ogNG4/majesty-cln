@@ -1,0 +1,80 @@
+
+.newsletter{
+    width: 100%;
+    position: relative;
+    height: 45vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    background: white;
+    z-index: -1;
+}
+
+
+.form{
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input,
+.submit-btn{
+    height: 3rem;
+    font-size: .9rem;
+    border-radius: .5rem;
+    outline: none;
+}
+
+.input{
+    padding: .3rem;
+}
+
+.submit-btn{
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.terms{
+    color: gray;
+
+}
+
+.terms-span{
+    color: rgb(228, 28, 28);
+}
+
+
+@media only screen and (min-width: 800px){
+    
+    .newsletter{
+        max-height: 40vh;
+        align-items: center;
+        
+        
+    }
+    
+    .form{
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        width: 90%;
+        margin: 0 auto;
+       
+    }
+
+    .input{
+        flex: 5;
+    }
+
+    .submit-btn{
+        padding: 1rem;
+        flex: 1;
+       
+    }
+}

@@ -1,0 +1,49 @@
+.nav-buttons{
+    display: flex;
+    gap: 10px;
+}
+
+.nav-button,
+.nav-country-button,
+.burger-btn{
+    background: transparent;
+    height: 1.8rem;
+    width: 1.8rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+
+}
+
+.nav-button{
+    color: white;
+    font-size: 1.8rem;
+}
+
+.nav-country-button{
+ border-radius: 50%;
+ overflow: hidden;
+
+}
+
+.burger-btn{
+    font-size: 2rem;
+}
+
+.country-img {
+    width: 180%;
+    object-fit: cover;
+     
+}
+
+
+@media only screen and (min-width: 1300px) {
+    
+    .burger-btn{
+        display: none;
+    }
+    
+}
