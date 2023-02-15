@@ -1,9 +1,41 @@
 .over{
     height: 50vh;
-   
     color: white;
-   
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
+
+
+.adres{
+    font-weight: 500;
+}
+
+.close{
+    position: absolute;
+    top: 0;
+    right: 3rem;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    background: transparent;
+    outline: none;
+    border: none;
+}
+
+@media only screen and (min-width:1200px){
+
+    .over{
+    width: 60%;
+    margin: 5rem auto;
+    justify-content: start;
+    gap: 30px;
+    }
+
+    .close{
+        right: 20%;
+        font-size: 3rem;
+    }
+    
+}
+
